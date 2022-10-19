@@ -38,7 +38,7 @@ FROM
 WHERE 
   order_status="order finished"
 GROUP BY 
-  year(order_date);
+  year(order_date)
 ORDER BY
   years;
 ```
